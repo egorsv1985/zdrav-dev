@@ -1,0 +1,34 @@
+// Переменные
+@import "./../scss/global/variables";
+
+// Миксины
+@import "./../scss/global/mixins";
+
+// Сброс дефолтных стилей браузера (дополнительный)
+@import "./../scss/global/global";
+
+// Основные стили
+@import "./../scss/global/base";
+
+// Размеры шрифтов повторяющихся элементов (h1, заголовки секций и т.д.)
+@import "./../scss/global/typography";
+
+// Общие стили для кнопок
+@import "./../scss/global/btns";
+
+// Общие стили для инпутов, чекбоксов и т.д.
+@import "./../scss/global/inputs";
+
+// Общие стили для секций (паддинги и т.д.)
+@import "./../scss/global/sections";
+
+// Плагины
+// @import "./../scss/libs/swiper-bundle.min"; // Слайдер
+
+// Блоки
+@import "./../scss/blocks/header";
+
+@import "./../scss/blocks/footer";
+
+
+// Компоненты
