@@ -4,6 +4,8 @@
 // Миксины
 @import "./../scss/global/mixins";
 
+@import "./../scss/global/fonts";
+
 // Сброс дефолтных стилей браузера (дополнительный)
 @import "./../scss/global/global";
 
@@ -12,7 +14,7 @@
 
 // Размеры шрифтов повторяющихся элементов (h1, заголовки секций и т.д.)
 @import "./../scss/global/typography";
-@import "./../scss/global/fonts";
+
 
 // Общие стили для кнопок
 @import "./../scss/global/btns";
