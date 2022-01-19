@@ -1,0 +1,399 @@
+// @media (max-width: 426px) {
+// 	.footer {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		-webkit-box-align: start;
+// 		-ms-flex-align: start;
+// 		align-items: start;
+// 	}
+
+// 	.footer__logo {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-bottom: 38px;
+// 		margin-top: 45px;
+// 	}
+
+// 	.footer__logo img {
+// 		width: 58px;
+// 		height: 58px;
+// 		margin-right: 5px;
+// 	}
+
+// 	.footer__menu {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 	}
+
+// 	.footer__menu a {
+// 		text-decoration: none;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 25px;
+// 	}
+
+// 	.footer__social {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 	}
+
+// 	.footer__social .links {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-top: 25px;
+// 	}
+
+// 	.footer__social .links a {
+// 		margin-right: 20px;
+// 	}
+
+// 	.footer__documents {
+// 		margin-top: 25px;
+// 	}
+
+// 	.footer__documents a {
+// 		text-decoration: none;
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 25px;
+// 	}
+
+// 	.footer__rights {
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		min-width: 120px;
+// 		margin-top: 25px;
+// 		margin-bottom: 25px;
+// 	}
+
+// 	.footer .logo-text {
+// 		display: block;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 	}
+
+// 	#footer {
+// 		background-color: #485B97;
+// 	}
+// }
+
+// @media (min-width: 427px) {
+// 	.footer {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		-ms-flex-wrap: wrap;
+// 		flex-wrap: wrap;
+// 	}
+
+// 	.footer__logo {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-right: 250px;
+// 		margin-bottom: 45px;
+// 	}
+
+// 	.footer__logo img {
+// 		width: 58px;
+// 		height: 58px;
+// 		margin-right: 5px;
+// 	}
+
+// 	.footer__menu {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		margin-right: 75px;
+// 	}
+
+// 	.footer__menu a {
+// 		text-decoration: none;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 5px;
+// 	}
+
+// 	.footer__social {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-right: 35px;
+// 	}
+
+// 	.footer__social .links {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-top: 5px;
+// 	}
+
+// 	.footer__social .links a {
+// 		margin-right: 20px;
+// 	}
+
+// 	.footer__documents {
+// 		margin-right: 0px;
+// 	}
+
+// 	.footer__documents a {
+// 		text-decoration: none;
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 5px;
+// 	}
+
+// 	.footer__rights {
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		min-width: 120px;
+// 		margin-left: 50px;
+// 	}
+// }
+
+// @media (min-width: 427px) and (min-width: 900px) {
+// 	.footer__rights {
+// 		margin-left: 0;
+// 	}
+// }
+
+// @media (min-width: 427px) {
+// 	.footer .logo-text {
+// 		display: block;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 	}
+
+// 	#footer {
+// 		background-color: #485B97;
+// 	}
+// }
+
+// @media (min-width: 1350px) {
+// 	.footer {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		-ms-flex-wrap: wrap;
+// 		flex-wrap: wrap;
+// 	}
+
+// 	.footer__logo {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-right: 350px;
+// 		margin-bottom: 45px;
+// 	}
+
+// 	.footer__logo img {
+// 		width: 58px;
+// 		height: 58px;
+// 		margin-right: 5px;
+// 	}
+
+// 	.footer__menu {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		margin-right: 100px;
+// 	}
+
+// 	.footer__menu a {
+// 		text-decoration: none;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 5px;
+// 	}
+
+// 	.footer__social {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-right: 75px;
+// 	}
+
+// 	.footer__social .links {
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: horizontal;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: row;
+// 		flex-direction: row;
+// 		-webkit-box-align: center;
+// 		-ms-flex-align: center;
+// 		align-items: center;
+// 		margin-top: 5px;
+// 	}
+
+// 	.footer__social .links a {
+// 		margin-right: 20px;
+// 	}
+
+// 	.footer__documents {
+// 		margin-right: 115px;
+// 	}
+
+// 	.footer__documents a {
+// 		text-decoration: none;
+// 		display: -webkit-box;
+// 		display: -ms-flexbox;
+// 		display: flex;
+// 		-webkit-box-orient: vertical;
+// 		-webkit-box-direction: normal;
+// 		-ms-flex-direction: column;
+// 		flex-direction: column;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		margin-bottom: 5px;
+// 	}
+
+// 	.footer__rights {
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 		min-width: 120px;
+// 	}
+
+// 	.footer .logo-text {
+// 		display: block;
+// 		color: #D9E6CA;
+// 		font-family: 'Gilroy Medium';
+// 		font-size: 12px;
+// 		line-height: 1.1;
+// 	}
+
+// 	#footer {
+// 		background-color: #485B97;
+// 	}
+// }
