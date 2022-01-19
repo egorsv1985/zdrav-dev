@@ -89,7 +89,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: "gilroy", "Tahoma", sans-serif;
+  font-family: "gilroy", sans-serif;
   font-weight: 400;
   font-style: normal;
   text-rendering: optimizelegibility;
@@ -156,14 +156,11 @@ h2 {
   line-height: 5.5rem;
   font-weight: 800;
   text-align: left;
-  font-family: "Nunito-ExtraBold", sans-serif;
   color: #2F3B3F;
   align-self: flex-start;
 }
 
 h3 {
-  font-weight: 700;
-  font-family: "Nunito-Bold", sans-serif;
   color: #FFF;
 }
 
@@ -172,17 +169,46 @@ h4 {
   line-height: 4.1rem;
   font-weight: 700;
   text-align: left;
-  font-family: "Nunito-Bold", sans-serif;
   color: #2F3B3F;
 }
 
 p {
-  font-weight: 400;
   text-align: left;
-  font-family: "Nunito-Regular", sans-serif;
   color: #2F3B3F;
 }
 
+@font-face {
+  font-family: "gilroy";
+  font-display: swap;
+  src: url("../fonts/gilroy-medium.woff2") format("woff2");
+  src: url("../fonts/gilroy-medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy";
+  font-display: swap;
+  src: url("../fonts/gilroy-bold.woff2") format("woff2");
+  src: url("../fonts/gilroy-bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy";
+  font-display: swap;
+  src: url("../fonts/gilroy-regular.woff2") format("woff2");
+  src: url("../fonts/gilroy-regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "gilroy";
+  font-display: swap;
+  src: url("../fonts/gilroy-semibold.woff2") format("woff2");
+  src: url("../fonts/gilroy-semibold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
 .btn,
 .btns,
 .btn-modal {
@@ -261,4 +287,8 @@ p {
 
 .cf {
   background-color: #83AEAD;
+}
+
+.header {
+  background-color: red;
 }
